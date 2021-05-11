@@ -28,6 +28,6 @@ public class DogController {
 
     @GetMapping("/houseTrained")
     public List<String> isHouseTrained(){
-        return dogService.getHouseTrainedDogs();gi
+        return dogService.getHouseTrainedDogs();
     }
 }
