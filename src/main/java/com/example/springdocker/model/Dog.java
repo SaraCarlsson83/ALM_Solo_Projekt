@@ -12,5 +12,5 @@ public class Dog {
     String Name;
     int age;
     String breed;
-    boolean isHouseTrained;
+    boolean houseTrained;
 }

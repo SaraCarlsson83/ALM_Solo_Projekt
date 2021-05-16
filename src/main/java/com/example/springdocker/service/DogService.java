@@ -18,8 +18,8 @@ public class DogService {
         return dogRepository.findAll();
     }
 
-    public void addDog(Dog dog){
-        dogRepository.save(dog);
+    public Dog addDog(Dog dog){
+        return dogRepository.save(dog);
     }
 
     public List<String> getHouseTrainedDogs(){
