@@ -17,14 +17,6 @@ public class MyMathCalc {
         }
         return a/b;
     }
-
-    public static void main(String[] args) {
-        MyMathCalc m = new MyMathCalc();
-        m.divide(5, 0);
-
-        System.out.println(m.divide(9,0));
-
-    }
 }
 
 

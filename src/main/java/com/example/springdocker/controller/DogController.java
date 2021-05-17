@@ -22,8 +22,8 @@ public class DogController {
     }
 
     @PostMapping("/addDog")
-    public void addDog(@RequestBody Dog newDog){
-        dogService.addDog(newDog);
+    public Dog addDog(@RequestBody Dog newDog){
+        return dogService.addDog(newDog);
     }
 
     @GetMapping("/houseTrained")
